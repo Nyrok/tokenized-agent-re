@@ -1,0 +1,17 @@
+{
+  "name": "tokenized-agent-decode",
+  "version": "1.0.0",
+  "description": "Reverse engineering of Pump.fun's Tokenized Agent on-chain program",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@coral-xyz/borsh": "^0.32.1",
+    "@pump-fun/pump-sdk": "^1.26.0",
+    "@solana/kit": "^5.4.0",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "bn.js": "^5.2.2",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.2.3"
+  }
+}
